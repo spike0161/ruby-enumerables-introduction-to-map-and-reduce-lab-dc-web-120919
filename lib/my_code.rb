@@ -1,11 +1,10 @@
 # Map-like
 
 def map_to_negativize(source_array)
- new_array = Array.new
  
- source_array.map.push { |n| n * -1}
+ source_array.map { |n| n * -1}
  
-  return new_array
+  return source_array
 end
 
 def map_to_no_change(source_array)
