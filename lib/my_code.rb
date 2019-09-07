@@ -6,9 +6,11 @@ def map_to_negativize(source_array)
   
     while i < source_array.length do
       source_array.push[i] * -1
+      
+      return new_array
     end
   i += 1
-  return new_array
+  
 end
 
 def map_to_no_change(source_array)
